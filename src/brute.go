@@ -5,6 +5,7 @@ import (
 	"context"
 	"flag"
 	"fmt"
+	"golang.org/x/crypto/ssh"
 	"log"
 	"math/rand"
 	"net"
@@ -12,8 +13,6 @@ import (
 	"strings"
 	"sync"
 	"time"
-
-	"golang.org/x/crypto/ssh"
 )
 
 var (
